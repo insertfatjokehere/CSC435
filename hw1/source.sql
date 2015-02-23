@@ -1,0 +1,20 @@
+CREATE DATABASE IF NOT EXISTS WebServices;
+Use WebServices;
+
+DROP TABLE IF EXISTS Users;
+
+  -- FOREIGN KEY (fKey) REFERENCES fTable
+  -- ON UPDATE CASCADE
+  -- ON DELETE NO ACTION
+
+CREATE TABLE Users (
+User_ID INTEGER NOT NULL AUTO_INCREMENT,
+Username VARCHAR(255) NOT NULL,
+Password VARCHAR(255) NOT NULL,
+UNIQUE (Username),
+PRIMARY KEY(User_ID)
+);
+
+# Default demo login
+
+INSERT INTO Users (Username, Password) VALUES ('Apache', 'Tomcat');
