@@ -25,7 +25,56 @@
        <servlet-name>Category</servlet-name>
        <servlet-class>getStockCategory</servlet-class>
    </servlet>
+
+   <servlet>
+        <servlet-name>Industry</servlet-name>
+        <servlet-class>getStockIndustry</servlet-class>
+   </servlet>
+
+   <servlet>
+        <servlet-name>Company</servlet-name>
+        <servlet-class>getStockCompany</servlet-class>
+   </servlet>
+
+   <servlet>
+        <servlet-name>Dash</servlet-name>
+        <servlet-class>dashboardServlet</servlet-class>
+   </servlet>
+
+   <servlet>
+     <servlet-name>followStocks</servlet-name>
+     <servlet-class>addStocks</servlet-class>
+   </servlet>
+
+   <servlet>
+     <servlet-name>watchedStocks</servlet-name>
+     <servlet-class>retrieveWatchedStocks</servlet-class>
+   </servlet>
+
+   <servlet>
+    <servlet-name>viewAllUsers</servlet-name>
+    <servlet-class>retrieveAllUsers</servlet-class>
+   </servlet>
  
+  <servlet>
+    <servlet-name>follow</servlet-name>
+    <servlet-class>followNewUsers</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>getFolllow</servlet-name>
+    <servlet-class>getFollowers</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>rmFollow</servlet-name>
+    <servlet-class>removeFollowers</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>restful</servlet-name>
+    <servlet-class>returnJSON</servlet-class>
+  </servlet>
    <!-- Note: All <servlet> elements MUST be grouped together and
          placed IN FRONT of the <servlet-mapping> elements -->
  
@@ -51,8 +100,58 @@
    </servlet-mapping>
    
    <servlet-mapping>
-       <servlet-name>Category</servlet-name>
-       <url-pattern>/selectCategory</url-pattern>
+    <servlet-name>Category</servlet-name>
+    <url-pattern>/selectCategory</url-pattern>
+   </servlet-mapping>
+
+   <servlet-mapping>
+     <servlet-name>Industry</servlet-name>
+     <url-pattern>/selectIndustry</url-pattern>
+   </servlet-mapping>
+
+   <servlet-mapping>
+      <servlet-name>Company</servlet-name>
+      <url-pattern>/selectCompany</url-pattern>
+   </servlet-mapping>
+
+   <servlet-mapping>
+    <servlet-name>Dash</servlet-name>
+    <url-pattern>/dash</url-pattern>
+   </servlet-mapping>
+
+   <servlet-mapping>
+    <servlet-name>followStocks</servlet-name>
+    <url-pattern>/followStocks</url-pattern>
+   </servlet-mapping>
+
+   <servlet-mapping>
+     <servlet-name>watchedStocks</servlet-name>
+     <url-pattern>/viewStocks</url-pattern>
+   </servlet-mapping>
+
+   <servlet-mapping>
+    <servlet-name>viewAllUsers</servlet-name>
+    <url-pattern>/viewUsers</url-pattern>
+   </servlet-mapping>
+
+   <servlet-mapping>
+    <servlet-name>follow</servlet-name>
+    <url-pattern>/followNewUser</url-pattern>
+   </servlet-mapping>
+
+   <servlet-mapping>
+    <servlet-name>getFolllow</servlet-name>
+    <url-pattern>/getAllFollowers</url-pattern>
+   </servlet-mapping>
+
+   <servlet-mapping>
+    <servlet-name>rmFollow</servlet-name>
+    <url-pattern>/removeYourFollowers</url-pattern>
+   </servlet-mapping>
+
+   <servlet-mapping>
+    <servlet-name>restful</servlet-name>
+    <url-pattern>/json</url-pattern>
    </servlet-mapping>
 
   <welcome-file-list>

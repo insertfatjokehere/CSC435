@@ -18,13 +18,24 @@ public class successLogin extends HttpServlet {
       // String user = request.getParameter("user");
       // String pass = request.getParameter("pass");
       HttpSession session = request.getSession(false);
-      // String user = session.getAttribute("user").toString();
+      String user = session.getAttribute("user").toString();
+
       try {
+         out.println("<!DOCTYPE html>");
          out.println("<html>");
+         out.println("<head>");
+         out.println("<meta charset=\"UTF-8\">");
+         out.println("<title>Successful Login</title>");
+         out.println("</head>");
          out.println("<body>");
          // out.println("<p>User: " + user + "\n Pass: " + pass + "</p>");
          out.println("<p> Login was successfull </p>");
-         out.println("<a href=\"/hw1/selectCategory\"> Click Here to view the stock quotes </a>");
+         // out.println("<form id=\"redirectDash\" method=\"post\" action=\"/hw1/dash\">");
+         // out.println("<input type=\"hidden\" name=\"sub\" value=\"\" />");
+         // out.println("<a onclick=\"document.getElementById(\'redirectDash\').submit();\"> <u> Click to go to dashboard </u> </a>");
+         // out.println("</form>");
+
+         out.println("<a href=\"/hw1/dash\"> Click to go to your dashboard</a>");
          out.println("</body>");
          out.println("</html>");
 

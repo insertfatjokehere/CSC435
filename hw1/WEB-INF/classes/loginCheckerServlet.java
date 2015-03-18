@@ -13,18 +13,21 @@ public class loginCheckerServlet extends HttpServlet {
 
        HttpSession session = request.getSession(false);
 
-       if (session != null) {
+       // Checking if session is null is not smart
+       // Check for an attrubute instead.
 
-		 RequestDispatcher successfull = request.getRequestDispatcher("/successLogin");
-		 successfull.forward(request, response);
+       try {
 
-       } else {
-
-         // RequestDispatcher login = request.getRequestDispatcher("form.html");
-         // login.forward(request, response);
-
-       	 response.sendRedirect("form.html");
+        String user = session.getAttribute("user").toString();
+        RequestDispatcher successfull = request.getRequestDispatcher("/successLogin");
+        successfull.forward(request, response);
        
+       } catch (NullPointerException ex) {
+
+        response.sendRedirect("form.jsp");
+        
        }
+
+
     } 
 }

@@ -22,7 +22,7 @@ public class loginServlet extends HttpServlet {
   
       // Prepare for redirects / Forwards
       RequestDispatcher successfull = request.getRequestDispatcher("/successLogin");
-      RequestDispatcher error = request.getRequestDispatcher("/errorLogin");
+      RequestDispatcher error = request.getRequestDispatcher("/hw1/errorLogin");
 
       // Get the user login values
       String user = request.getParameter("username");

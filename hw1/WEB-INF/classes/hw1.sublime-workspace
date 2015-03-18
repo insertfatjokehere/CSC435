@@ -1,0 +1,1146 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ser",
+				"servlet-name"
+			],
+			[
+				"serv",
+				"servlet"
+			],
+			[
+				"FO",
+				"Following"
+			],
+			[
+				"F",
+				"FROM"
+			],
+			[
+				"temp",
+				"tempSt"
+			],
+			[
+				"unfo",
+				"unfollowIDs"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"unfoi",
+				"unfollowList"
+			],
+			[
+				"User",
+				"Username"
+			],
+			[
+				"S",
+				"SELECT"
+			],
+			[
+				"de",
+				"deleteFollowers"
+			],
+			[
+				"SQ",
+				"SQLException"
+			],
+			[
+				"Clas",
+				"ClassNotFoundException"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"get",
+				"getFollowerList"
+			],
+			[
+				"ca",
+				"catch"
+			],
+			[
+				"che",
+				"check"
+			],
+			[
+				"Foll",
+				"Following"
+			],
+			[
+				"ins",
+				"insertSt"
+			],
+			[
+				"in",
+				"insertRS"
+			],
+			[
+				"Fo",
+				"Follow"
+			],
+			[
+				"the",
+				"theUserID"
+			],
+			[
+				"for",
+				"for	for"
+			],
+			[
+				"res",
+				"results"
+			],
+			[
+				"null",
+				"null"
+			],
+			[
+				"re",
+				"resultsArray"
+			],
+			[
+				"cl",
+				"close"
+			],
+			[
+				"retu",
+				"returnResults"
+			],
+			[
+				"conn",
+				"connectAndAdd"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"add",
+				"addStocksConnector"
+			],
+			[
+				"us",
+				"username"
+			],
+			[
+				"sql",
+				"sqlLoginCount"
+			],
+			[
+				"comp",
+				"companyNames"
+			],
+			[
+				"comap",
+				"companyNames"
+			],
+			[
+				"name",
+				"namesTemp"
+			],
+			[
+				"to",
+				"toArray"
+			],
+			[
+				"sy",
+				"symbolTemp"
+			],
+			[
+				"nam",
+				"namesTemp"
+			],
+			[
+				"sele",
+				"selected_industry"
+			],
+			[
+				"com",
+				"companySymbol"
+			],
+			[
+				"se",
+				"servlet"
+			],
+			[
+				"indu",
+				"industry_name"
+			],
+			[
+				"ind",
+				"industryID"
+			],
+			[
+				"json",
+				"jsonQuery"
+			],
+			[
+				"rep",
+				"response"
+			],
+			[
+				"sector",
+				"sectorNames"
+			],
+			[
+				"boo",
+				"boolSingle"
+			],
+			[
+				"pt",
+				"printf	printf …"
+			],
+			[
+				"st",
+				"stackPointer"
+			],
+			[
+				"sta",
+				"stackPointer"
+			],
+			[
+				"stac",
+				"stackPointer"
+			],
+			[
+				"bool",
+				"boolQuote"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"key",
+				"keywordCount"
+			],
+			[
+				"stack",
+				"stackPointer"
+			],
+			[
+				"inde",
+				"identifiers"
+			],
+			[
+				"theme",
+				"themeArray"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"array_ke",
+				"array_key_exists"
+			],
+			[
+				"mono",
+				"monokai_sublime"
+			],
+			[
+				"monokai",
+				"monokai_sublime"
+			],
+			[
+				"at",
+				"atelier-seaside"
+			],
+			[
+				"dark",
+				"dark"
+			],
+			[
+				"hy",
+				"hybrid"
+			],
+			[
+				"tomo",
+				"tomorrow-night-eighties"
+			],
+			[
+				"tmo",
+				"tomorrow-night-blue"
+			],
+			[
+				"tom",
+				"tomorrow-night-bright"
+			],
+			[
+				"sol",
+				"solarized_light"
+			],
+			[
+				"sc",
+				"school_book"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"html",
+				"htmlspecialchars"
+			],
+			[
+				"genre",
+				"genre"
+			],
+			[
+				"val",
+				"variable"
+			],
+			[
+				"th",
+				"th"
+			],
+			[
+				"l",
+				"li	Tag"
+			],
+			[
+				"h",
+				"h4	Tag"
+			],
+			[
+				"jquery",
+				"jquery"
+			],
+			[
+				"unse",
+				"unset"
+			],
+			[
+				"Word",
+				"WordList"
+			],
+			[
+				"rand",
+				"randWord"
+			],
+			[
+				"inter",
+				"inter"
+			],
+			[
+				"beg",
+				"begWords"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "returnJSON.java",
+			"settings":
+			{
+				"buffer_size": 6290,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<%@page contentType=\"text/html\" pageEncoding=\"UTF-8\"%>\n<%@page import=\"java.io.*\"%>\n<!DOCTYPE html>\n<html>\n<head>\n	<title>View / Manage Followers</title>\n</head>\n<body>\n <div style=\"text-align:left;\"><a href=\"/hw1/dash\">Home </a> &rArr; <a href=\"/hw1/getAllFollowers\">Manage Followers </a><span style=\"float:right;\"><a href=\"/hw1/logout.jsp\">logout</a></span></div>\n<hr>\n<%\n	String[] followers = (String[])request.getAttribute(\"follower_list\");\n\n	if (followers != null && followers.length != 0) {\n		out.println(\"<form action=\\\"removeYourFollowers\\\" method=\\\"post\\\">\");\n		out.println(\"<table border=\\\"1\\\">\\n<tr>\\n<th>Followers</th>\\n<th>Check to Unfollow</th>\\n</tr>\\n\");\n\n		for (int i = 0; i < followers.length; i++) {\n			out.println(\"<tr>\\n<td>\" + followers[i] + \"</td>\\n<td><input type=\\\"checkbox\\\" name=\\\"unfollowUsers\\\" value=\\\"\" + followers[i] + \"\\\"></td>\\n</tr>\");\n		}\n		out.println(\"<br />\");\n		out.println(\"<input type=\\\"submit\\\" value=\\\"Submit\\\">\");\n		out.println(\"</form>\");\n\n	} else {\n		out.println(\"<p>There was either an error, or you follow no one yet</p>\");\n	}\n%>\n</body>\n</html>",
+			"file": "/C/tomcat/webapps/hw1/viewFollowers.jsp",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 1094,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<%@page contentType=\"text/html\" pageEncoding=\"UTF-8\"%>\n<%@page import=\"java.io.*\"%>\n\n<!DOCTYPE html>\n<html>\n<head>\n	<title>View All Users</title>\n</head>\n<body>\n <div style=\"text-align:left;\"><a href=\"/hw1/dash\">Home </a> &rArr; <a href=\"/hw1/viewUsers\">View All Users </a><span style=\"float:right;\"><a href=\"/hw1/logout.jsp\">logout</a></span></div>\n<hr>\n<%\nString[] users = (String[])request.getAttribute(\"all_users\");\n	if (users.length != 0 && users != null) {\n		out.println(\"<form action=\\\"followNewUser\\\" method=\\\"post\\\">\");\n		out.println(\"<table border=\\\"1\\\">\\n<tr>\\n<th>Watched Companies (by Symbol)</th>\\n<th>Check to Follow</th>\\n</tr>\\n\");\n		for (int i = 0; i < users.length; i++){\n			out.println(\"<tr>\\n<td>\" + users[i] + \"</td> <td><input type=\\\"checkbox\\\" name=\\\"selectUsers\\\" value=\\\"\" + users[i] + \"\\\"></td>\\n</tr>\\n\");\n		}\n		out.println(\"<br />\");\n		out.println(\"<input type=\\\"submit\\\" value=\\\"Submit\\\">\");\n		out.println(\"</form>\");\n	} else {\n		out.println(\"<p>No users were able to be seen at this moment</p>\");\n	}\n%>\n</body>\n</html>",
+			"file": "/C/tomcat/webapps/hw1/viewAllUsers.jsp",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 1049,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "followNewUsers.java",
+			"settings":
+			{
+				"buffer_size": 4771,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "removeFollowers.java",
+			"settings":
+			{
+				"buffer_size": 5776,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "addStocks.java",
+			"settings":
+			{
+				"buffer_size": 6088,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<%@page contentType=\"text/html\" pageEncoding=\"UTF-8\"%>\n<%@page import=\"java.io.*\"%>\n<%@page import=\"java.util.*\"%>\n\n<!DOCTYPE html>\n<html>\n <head>\n <title> Retrieve Companies </title>\n </head>\n <body>\n <div style=\"text-align:left;\"><a href=\"/hw1/dash\">Home </a> &rArr; <a href=\"/hw1/selectCategory\">Select Sector </a> &rArr; <a href=\"/hw1/selectIndustry?industry=<%=(String)request.getAttribute(\"selected_sector\")%>\">Select Industry </a> &rArr; Select Company <span style=\"float:right;\"><a href=\"/hw1/logout.jsp\">logout</a></span></div>\n<hr>\n<p> Fetched Yahoo finance Companies via <a href=\"<%=(String)request.getAttribute(\"query\")%>\" target=\"_blank\">query</a></p>\n<p> Select one of the Industries to contiune to look at the companies </p>\n<%\nString[] namesTemp = (String[])request.getAttribute(\"company_name\");\nString[] symbolTemp = (String[])request.getAttribute(\"company_symbol\");\n\n// String[] names = namesTemp.toArray(new String[namesTemp.size()]);\n// String[] symbol = symbolTemp.toArray(new String[symbolTemp.size()]);\n// out.println(\"<ol>\");\n\n// Note: name of the input tag is the parameter \nout.println(\"<form action=\\\"followStocks\\\" method=\\\"post\\\">\");\nout.println(\"<table border=\\\"1\\\">\\n<tr>\\n<th>Comapnies</th>\\n<th>Stock Symbol</th>\\n</tr>\\n\");\nfor (int i = 0; i < namesTemp.length; i++) {\n	// out.println(\"<li> Names: \" + namesTemp[i] + \" === Symbol \" + symbolTemp[i] + \"</li>\");\n	out.println(\"<tr>\\n<td>\" + namesTemp[i] + \"</td>\\n<td>\" + symbolTemp[i] + \"</td>\\n<td><input type=\\\"checkbox\\\" name=\\\"stockSymbol\\\" value=\\\"\" + symbolTemp[i] + \"\\\"></td>\\n</tr>\\n\");\n}\nout.println(\"<br />\");\nout.println(\"<input type=\\\"submit\\\" value=\\\"Submit\\\">\");\nout.println(\"</form>\");\n// out.println(\"</table>\")\n%>\n </body>\n</html>",
+			"file": "/C/tomcat/webapps/hw1/selectCompany2.jsp",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 1729,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<%@page contentType=\"text/html\" pageEncoding=\"UTF-8\"%>\n<!DOCTYPE html>\n<html>\n<head>\n	<title>Logout</title>\n</head>\n<body>\n<p> You have successfull logged out.</p>\n<p> To sign in again, follow this <a href=\"/hw1/form.jsp\">link</a></p>\n</body>\n</html>",
+			"file": "/C/tomcat/webapps/hw1/logout.jsp",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 250,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "# CSC435 - Homework 1 - Kyle Bashford\n\n## Assignment Details - Defined by Alex\n\n  1. Think from the point of view of a human client who wants you to build a useful web application, and write an elaborate requirements specification document. Include as many details as you can.\n\n    In addition, you should specify the following technical information:\n\n    * Back-end functionality: explain what the logic of your project is. This is the part that does the useful work.\n\n    * Points of contact of the back-end with the outside world: define the external interfaces to your logic. It will be best if you both consume external web services (weather, movie, etc.) and expose some of your application for external clients to consume.\n\n    * Web tier: describe an interface to allow browsers to consume your back-end logic. You can make this as complex as you want, but I recommend you keep it simple. This is not a course in Web design; a beautiful browser interface is great, but not at the cost of functionality.\n\n  2. Choose two of the end-points you identified in your project document, and build two Servlets (not JSPs) that represent them. One of those should be **stateful** (i.e., it should store/retrieve user information in an object associated with the session), and the other---**stateless**.\n\n## Project Overview/Scope\n\nThe scope of this project will be based on the viewing and tracking of stocks. The project will retrieve stocks from [Yahoo! Finance](https://code.google.com/p/yahoo-finance-managed/wiki/YQLAPI) (via Yahoo! Query Language). Users would have to signin to the service, and all personal information, including 'watched/watching' stocks would be account bound. \n\nExample: \n     \n    User Logins to the webservice.\n    The login credentials is compared to a MySQL table.\n    User views the stock he/she is watching.\n    A table is pulled up with all the stocks that the user watches.\n    The user can choose to view a graph of a companies stocks\n    The server will compile an image and serve back to the user\n    The service allows important queries to be watched\n    A user can follow someone elses account, and see what they follow\n\nRetrieving this information is stateless since the servlet would have to request stocks every time to gain information. Generating the graphs would be stateless since the servlet would query to Yahoo! about the values, and serves the graph back to the user.\n\nWhere this project shares the statefullness is when the user logins to the service. The webservice also needs to be stateful if user accounts hold information about the user's watched stocks\n\n## Setup of Project (as of Homework 1)\n\nFor the inital setup, I'll be using a local instance of [Apache Tomcat 8.0+](http://tomcat.apache.org/download-80.cgi), along with MySQL (This setup was done on a windows machine). This maybe temporary, but initally this is how the project will go. Later, I'll try to use my MySQL on the Moxie server to simulate a more accurate latency with the webservice. For the mean time, a local instance of [MySQL 5.6 Server](http://dev.mysql.com/downloads/file.php?id=455350) is fine.\n\nAdditional files that were needed for this project was the [Connector/J Driver](http://dev.mysql.com/downloads/file.php?id=454397) for the MySQL server. The other library needed to parse Yahoo Query Language in JSON format was the [java-json.jar](http://www.java2s.com/Code/Jar/j/Downloadjavajsonjar.htm), since parsing in XML would take longer with bandwidth. However, there will be copies for these .jar files in the .war file with the directory of (webapp/WEB-INF/lib)\n\nApache Tomcat is confirgured on windows by following these [instructions](http://www.ntu.edu.sg/home/ehchua/programming/howto/Tomcat_HowTo.html). And setting up MySQL server with these [instructions](http://www.ntu.edu.sg/home/ehchua/programming/sql/MySQL_HowTo.html)\n\nTo compile the project, \n      \n    I stored the Connector/J (mysql-connector-java-5.1.34-bin.jar) and java-json.jar into `C:\\tomcat\\lib`. \n    I would change directory to where my webapp classes was: `cd C:\\tomcat\\webapps\\hw1\\WEB-INF\\classes`. \n    Then I would run java compiler with `C:\\tomcat\\webapps\\hw1\\WEB-INF\\classes>javac -cp .;C:\\tomcat\\lib\\java-json.jar;C:\\tomcat\\lib\\servlet-api.jar *.java`.\n\n## Example Servlets for Submittion\n\nThe two examples I will use to demonstrate stateful and stateless of the service will be:\n\n  1. A login page, where the user will sign in (validate with mysql user table), login to service. If the user is still in a session, if they start back at the welcome page, they would be redirected successfully\n\n  2. The stateless servlet will come into play after someone has successfully logged into the service. After they go into the login page \n\n### Flow of the login servlets\n\nThese are the following files related to the login system for the Webservice (excluding web.xml) that encompass the statefull service of assignment.\n\n  1. index.html\n  2. loginCheckerServlet.java\n  3. form.html\n  4. loginServlet.java\n  5. errorLogin.java\n  6. successLogin.java\n\nThe user would start at the Welcome/Index page (localhost:9999/hw1) and send a POST request to the loginCheckServlet.java\n\nThe loginCheckerServlet (localhost:9999/hw1/loginCheck) would check if the user has a session, by getting the attribute of the HTTPSession. If the HTTPSession is not `NULL`, they would be redirected to the success page\n\nIn the case the user didn't have the HTTPSession, the loginChecker would redirect the user to ther form.html (localhost:9999/hw1/form.html) where they would have to login. The MySQL server for testing purposes only has one user `Apache` with the password of `Tomcat`. (source.sql in the hw1 folder has the temporary skeleton of the database).\n\nAfter the user submits the form. The POST request is sent to the loginServlet (localhost:9999/hw1/login) where the credentials are checked against the MySQL table `Webservices.Users`. If the the results return 1 row, the login was successfull and is redirected to the success login page with a HTTPSession, else they go to the error login page. \n\nThe errorLogin servlet is straight forward, the servlet generates a redirect page to the form.html\n\nThe Success loginpage generates a link for the user to go onto the other part of the assignment (stateless servlet).\n\n### Stateless Servlet\n\nThe stateless servlet so far is only consisted of getStockCategory.java.\n\nAfter the user has logged in the service, they can go to the main page (localhost:9999/hw1/selectCategory).\n\nThe page generated generates the [query](https://query.yahooapis.com/v1/public/yql?q=select%20name%20from%20yahoo.finance.sectors&format=json&diagnostics=true&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys&callback=) to the Yahoo Finance Table and retrieve the sectors/categories of industries in JSON format.\n\nThe page will display the time (from the JSON file) the query is executed and will list the sectors. The page maynot be exciting, but it shows how the java servlet is extracting the information from [JSON](http://www.json.org/javadoc/org/json/JSONObject.html) file. The project would parse a XML version of the query, so a JSON library doesnt need to be imported, but since XML require more bytes to generate, this will cause the webservice to be slower than using JSON. \n\nThis servlet is stateless since the user can refresh the page, and the page doesnt check wether there is a session involved, and the time the query will change everytime the user refreshes.\n\n\n***\n\n\n# CSC435 - Homework 2 - Kyle Bashford\n\n## Assignment Details - Defined by Alex\n\nIn Homework 2 you will design the architecture of your application, complete its internal logic, persist data directly to a db, and write a very simple presentation layer.\n\nUse the MVC pattern to split the architecture of your application between logic, presentation, and dispatch. Write additional servlets as needed. Connect to the MySQL db to persist your data with simple SQL statements. Have your model communicate with a very simple presentation layer, built using JSPs.\n\nDemo: I will want you to demonstrate that everything is deployed and working as it should. I will also want you to demonstrate compiling your sources by hand, and packaging your bytecode and configuration in a .war file by hand. Finally, I will want you to demonstrate being able to work with the AS from the command line. Basically, I'll want you to start with your sources and non-running AS and, without using an IDE, end up with a deployed working enterprise application.\n\n## Features Introduced\n\n  * From the last submission of of the assignment, the Java Servlets were the models and the view. Now, almost all the servlets have been changed where the Java Servlets themselves manipulate data while JSP files are used to display (view)\n\n  * The Webservice now allows people to logout within the navigation bar to the right\n\n  * Users can login and add stocks to follow to their accounts (this will have an unwatch feature in the future submission)\n\n  * Users can follow and unfollow other users.\n\n## Using the command line\n\nTo Start the MySQL Server, I use the `mysqld --console` command because If I never need to quit it, I can click `^C` in the CMD or Terminal.\n\nFor compiling a `war` file: I `cd` into my working directory. Example: `C:\\tomcat\\webapps\\hw1\\` and run the command `jar cvf folder-name-of-project.war .` and this  will generate the war file. I always double check by opening the .war file within an archive tool, like 7-Zip to see if worked correctly\n\n***\n\n# CSC435 - Homework 3 - Kyle Bashford\n\n## Assignment Details - Defined by Alex\n\nHomework 3 consists of implementing a service layer to your project, as well as consuming external services as needed.\n\nRead the [document](http://cs.oswego.edu/~alex/teaching/csc435/RESTful.pdf) pertaining to REST services on the course web page. It has some details that were not mentioned in class.\n\nCreate an accurate description of the data flow in your project in diagrammatic form. If you used MVC appropriately in HW2, this task should be very easy.\n\nWrite servlets (not JSPs) for another view layer to your application. This view layer will present your entire application functionality as a set of REST services. Use the JSON format by default, and do not forget to set the appropriate MIME type of your response:\n`response.setContentType(\"application/json; charset=UTF-8\");`\n\nWrite servlets for a completely separate controller layer for the RESTful services. This layer would be distinguished from the existing (human-targeted) controller layer by the URL used to access it. E.g., `http://root/restful/criticData` as opposed to `http://root/criticData`. After doing this, you will have one model layer for the entire application, but two controller layers and two view layers. If you did not design HW2 correctly (a common mistake is to merge the controller and the model), you will have to redesign it. The diagram will help make your data flow explicit.\n\nDo not forget to work with all related servlet methods, depending on the service endpoint you are providing: Get, Post, Put, or Delete.\n\nFinally, make sure you do not use dummy data any more: at this point your model should be connecting to the external services you listed in your requirement specification, and consuming data provided by them.\n\n**NB: if your req spec document had poorly specified endpoints / external services, now is the time to fix it.** For some projects you may have to rethink your entire application and change its focus.\n\n## Submission\n\nThere is a diagram that would be attached. It was made in Microsoft Visio 2013. But There will be a pdf version of the diagram.\n\nI still haven't havent had time to make a service that makes diagrams / graphs / reports of stocks since the of the difficulties of the YQL at this time. [See Notes].\n\nWhen I do however, I will store Java Objects into the MySQL database and allow the restful service handle them properly into the JSON files.\n\n## Notes\n\nBy this time; March 17, 2015 (Happy St. Patricks Day) The Sector and Industry tables for YQL have been return `null` for the query.",
+			"file": "/C/tomcat/webapps/hw1/Project_Description_Kyle_Bashford.md",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 12141,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 311.0,
+		"selected_items":
+		[
+			[
+				"ftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"frp",
+				"Preferences: Browse Packages"
+			],
+			[
+				"late",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"sftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"fto",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sft",
+				"SFTP: Browse Server…"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/tomcat/webapps/hw1/WEB-INF/web.xml",
+		"/C/Users/Kyle/Desktop/Kyle_Bashford_hw2.lisp",
+		"/C/Users/Kyle/Downloads/4x rules.md",
+		"/C/Users/Kyle/AppData/Local/Temp/Temp1_Presenter.zip/presentation.md",
+		"/C/tomcat/webapps/hw1/viewFollowers.jsp",
+		"/C/tomcat/webapps/hw1/Project_Description_Kyle_Bashford.md",
+		"/C/tomcat/webapps/hw1/WEB-INF/classes/removeFollowers.java",
+		"/C/tomcat/webapps/hw1/WEB-INF/classes/dashboardServlet.java",
+		"/C/tomcat/webapps/hw1/hw1.war",
+		"/C/tomcat/webapps/hw1/WEB-INF/classes/followNewUsers.java",
+		"/C/tomcat/webapps/hw1/WEB-INF/classes/getFollowers.java",
+		"/C/tomcat/webapps/hw1/selectCompany2.jsp",
+		"/C/tomcat/webapps/hw1/WEB-INF/classes/addStocks.java",
+		"/C/tomcat/webapps/hw1/WEB-INF/classes/retrieveWatchedStocks.java",
+		"/C/tomcat/webapps/hw1/WEB-INF/classes/retrieveAllUsers.java",
+		"/C/tomcat/webapps/hw1/viewAddedUsers.jsp",
+		"/C/tomcat/webapps/hw1/viewAllUsers.jsp",
+		"/C/tomcat/webapps/hw1/viewYourStocks.jsp",
+		"/C/mysql/bin/source.sql",
+		"/C/tomcat/webapps/hw1/selectCategory2.jsp",
+		"/C/tomcat/webapps/hw1/selectIndustry2.jsp",
+		"/C/tomcat/webapps/hw1/viewAddedStocks.jsp",
+		"/C/tomcat/webapps/hw1/logout.jsp",
+		"/C/tomcat/webapps/hw1/WEB-INF/classes/clearUser.java",
+		"/C/tomcat/webapps/hw1/WEB-INF/classes/getStockCategory.java",
+		"/C/tomcat/webapps/hw1/WEB-INF/classes/errorLogin.java",
+		"/C/tomcat/webapps/hw1/WEB-INF/classes/loginServlet.java",
+		"/C/tomcat/webapps/hw1/source.sql",
+		"/C/tomcat/webapps/hw1/WEB-INF/classes/loginCheckerServlet.java",
+		"/C/tomcat/webapps/hw1/WEB-INF/classes/getStockCompany.java",
+		"/C/tomcat/webapps/hw1/WEB-INF/classes/getStockIndustry.java",
+		"/C/tomcat/webapps/hw1/selectCompany.jsp",
+		"/C/tomcat/webapps/hw1/selectIndustry.jsp",
+		"/C/tomcat/webapps/hw1/selectCategory.jsp",
+		"/C/mysql/my.ini",
+		"/C/users/kyle/appdata/local/temp/sublime-sftp-browse-1425229413/pi/home/kbashfor/public_html/isc329/wmip/wmip.sql",
+		"/C/tomcat/conf/web.xml",
+		"/C/tomcat/conf/tomcat-users.xml",
+		"/C/tomcat/conf/server.xml",
+		"/C/tomcat/conf/context.xml",
+		"/C/Users/Kyle/Desktop/Games/df_40_24_win/data/init/init.txt",
+		"/C/Users/Kyle/Desktop/Games/df_40_24_win/command line.txt",
+		"/C/Users/Kyle/Desktop/Games/df_40_24_win/region1-00095-02-28-world_history.txt",
+		"/C/Users/Kyle/Desktop/Games/df_40_24_win/region1-00095-02-28-world_sites_and_pops.txt",
+		"/C/Users/Kyle/Desktop/Dwarf Fortress 40_24 Starter Pack r5/Dwarf Fortress 40_24 Starter Pack r4/User Generated Content/Why this folder exists.txt",
+		"/C/Users/Kyle/Dropbox/Public/Should Watch List.md",
+		"/C/users/kyle/appdata/local/temp/sublime-sftp-browse-1424221835/pi/home/kbashfor/public_html/csc344/hw1/Code_Parser.c",
+		"/C/users/kyle/appdata/local/temp/sublime-sftp-browse-1424222135/pi/home/kbashfor/public_html/csc344/hw1/temp.txt",
+		"/C/Program Files/Sublime Text 3/Data/Packages/SFTP/SFTP.sublime-settings",
+		"/C/Users/Kyle/Dropbox/get",
+		"/C/Users/Kyle/ILL-EAGLE/Mount.and.Blade.Warband Version 1.134+Crack and Multiplayer/MBWMP1134/MBWMP1134/guide.txt",
+		"/C/Users/Kyle/Desktop/apache-tomcat-8.0.18/tomcat/conf/context.xml",
+		"/C/Users/Kyle/Desktop/apache-tomcat-8.0.18/tomcat/conf/web.xml",
+		"/C/Users/Kyle/Desktop/apache-tomcat-8.0.18/tomcat/conf/tomcat-users.xml",
+		"/C/Users/Kyle/Desktop/apache-tomcat-8.0.18/tomcat/conf/server.xml",
+		"/C/tomcat/conf/catalina.properties",
+		"/C/tomcat/webapps/hw1/WEB-INF/classes/successLogin.java",
+		"/C/users/kyle/appdata/local/temp/sublime-sftp-browse-1423349611/pi/home/kbashfor/public_html/csc344/hw1/temp.txt",
+		"/C/users/kyle/appdata/local/temp/sublime-sftp-browse-1423268732/pi/home/kbashfor/public_html/csc344/hw1/Code_Parser.c",
+		"/C/eula.3082.txt",
+		"/C/users/kyle/appdata/local/temp/sublime-sftp-browse-1423336120/pi/home/kbashfor/public_html/csc344/hw1/temp.txt",
+		"/C/users/kyle/appdata/local/temp/sublime-sftp-browse-1423181458/pi/home/kbashfor/public_html/csc344/hw1/Code_Parser.c",
+		"/C/users/kyle/appdata/local/temp/sublime-sftp-browse-1423177419/pi/home/kbashfor/public_html/csc344/hw1/Code_Parser.c",
+		"/C/users/kyle/appdata/local/temp/sublime-sftp-browse-1423178140/pi/home/kbashfor/public_html/csc344/hw1/temp.txt",
+		"/C/users/kyle/appdata/local/temp/sublime-sftp-browse-1423111449/pi/home/kbashfor/public_html/csc344/hw1/Code_Parser.c",
+		"/C/users/kyle/appdata/local/temp/sublime-sftp-browse-1422999807/pi/home/kbashfor/public_html/isc105/test.txt",
+		"/C/Users/Kyle/Dropbox/txt/Trackers.txt",
+		"/C/Users/Kyle/ILL-EAGLE/Alien.Anthology.1080p.Complete.Bluray.DTS-HD.x264-Grym/Read.Me.txt",
+		"/C/Users/Kyle/Desktop/new  1.txt",
+		"/E/Manga/READ.txt",
+		"/C/Users/Kyle/Dropbox/Public/Should Watch List.txt",
+		"/C/Program Files (x86)/SVP/ChangeLog_eng.txt",
+		"/C/Users/Kyle/Dropbox/Private/zkxfnzdksfdas.txt",
+		"/C/Users/Kyle/Desktop/Games/aoe.txt",
+		"/C/Users/Kyle/Dropbox/sublime.txt",
+		"/C/Users/Kyle/Dropbox/txt/Program.txt",
+		"/C/Users/Kyle/Downloads/readme.txt",
+		"/C/Temp/I seriously hope you guys dont open this/dont look.txt",
+		"/C/Users/Kyle/Desktop/[HorribleSubs] JoJo's Bizarre Adventure - Stardust Crusaders Egypt Arc - 26 [720p]_track3_und.ass",
+		"/C/Users/Kyle/Documents/My Games/Ironclad Games/Sins of a Solar Empire Rebellion/Mods-Rebellion v1.82/EnabledMods.txt",
+		"/C/users/kyle/appdata/local/temp/sublime-sftp-browse-1421458934/pi/home/kbashfor/public_html/isc496/projects/spellingbee/round.php",
+		"/C/Users/Kyle/ILL-EAGLE/The X-Files Season 1, 2, 3, 4, 5, 6, 7, 8 & 9 + Extras DVDRip HDTV TSV/TSV/To Watch This On Your TV.txt",
+		"/C/Users/Kyle/ILL-EAGLE/The X-Files Season 1, 2, 3, 4, 5, 6, 7, 8 & 9 + Extras DVDRip HDTV TSV/TSV/Read Me - TSV.txt",
+		"/C/Users/Kyle/ILL-EAGLE/City Hunter/City_Hunter_v01_c01-05/City_Hunter_v01/City_Hunter-v01-c001-2a/Credit_1.txt",
+		"//Htpc-pc/xbmc/Kyle/Anime/To Aru Kagaku no Railgun/Season 1/Info.txt",
+		"/C/Users/Kyle/Desktop/New Text Document.txt",
+		"/C/Users/Kyle/Downloads/Golgo 13 tributes JPEG 5 1800px/JPEG/New Text Document.txt",
+		"/C/Users/Kyle/AppData/Local/Temp/Temp1_FC2_-_GES.zip/ReadMe.txt",
+		"/C/Users/Kyle/Downloads/ps.txt",
+		"/C/Users/Kyle/Downloads/SSRaceUnlocker_v1.1/readme.txt",
+		"/E/Manga/JoJo/jojo_where_to_get.txt",
+		"/E/Manga/JoJo/jojo's_bizarre_adventure_with_colours_RAWS.txt",
+		"/C/Users/Kyle/AppData/Local/Temp/Temp1_Vagabond v01.zip/Vagabond v01/Vagabond v01c06 - the Troubles of Hon'iden Matahachi at Seventeen/Vagabond.txt",
+		"/C/Program Files (x86)/MKVToolNix/Formats.txt",
+		"/C/users/kyle/appdata/local/temp/sublime-sftp-browse-1417887901/pi/home/kbashfor/public_html/projects/vcode/codeDemo.php",
+		"/C/Program Files/Sublime Text 3/Data/Packages/User/sftp_servers/moxie",
+		"/C/users/kyle/appdata/local/temp/sublime-sftp-browse-1417145163/moxie/home/kbashfor/public_html/projects/vcode/codeDemo.php",
+		"/C/users/kyle/appdata/local/temp/sublime-sftp-browse-1417134449/moxie/home/kbashfor/public_html/projects/vcode/code.php",
+		"/C/users/kyle/appdata/local/temp/sublime-sftp-browse-1417135807/moxie/home/kbashfor/public_html/isc496/assignments/04/XML-Processing.html",
+		"/C/users/kyle/appdata/local/temp/sublime-sftp-browse-1417140514/moxie/home/kbashfor/public_html/projects/vcode/defaultFile.md",
+		"/C/users/kyle/appdata/local/temp/sublime-sftp-browse-1417133666/moxie/home/kbashfor/public_html/isc496/assignments/02/02.html",
+		"/C/users/kyle/appdata/local/temp/sublime-sftp-browse-1417133156/moxie/home/kbashfor/public_html/isc496/index.html",
+		"/C/users/kyle/appdata/local/temp/sublime-sftp-browse-1417133327/moxie/home/kbashfor/public_html/isc496/assignments/05/05.html",
+		"/C/Users/Kyle/Desktop/test.md",
+		"/C/users/kyle/appdata/local/temp/sublime-sftp-browse-1416615985/moxie/home/kbashfor/public_html/isc496/assignments/CMS/cms.md",
+		"/C/users/kyle/appdata/local/temp/sublime-sftp-browse-1416974878/moxie/home/kbashfor/public_html/isc329/mysql/dhBranchStaff.php",
+		"/C/Program Files/Sublime Text 3/Data/Packages/User/Preferences.sublime-settings",
+		"/C/users/kyle/appdata/local/temp/sublime-sftp-browse-1416457947/moxie/home/kbashfor/public_html/isc496/assignments/04/XML-Processing.html",
+		"/C/users/kyle/appdata/local/temp/sublime-sftp-browse-1416457972/moxie/home/kbashfor/public_html/isc496/assignments/04/style.xsl",
+		"/C/Users/Kyle/Downloads/Markdown_1.0.1/Markdown_1.0.1/Markdown Readme.text",
+		"/C/Program Files/Sublime Text 3/Data/Packages/User/customizedMonokai.tmTheme",
+		"/C/Program Files/Sublime Text 3/Data/Packages/customizedMonokai.tmTheme",
+		"/C/Program Files/Sublime Text 3/Packages/Color Scheme - Default.sublime-package",
+		"/C/Users/Kyle/Downloads/Markdown_1.0.1/Markdown_1.0.1/Markdown.pl",
+		"/C/users/kyle/appdata/local/temp/sublime-sftp-browse-1416440582/moxie/home/kbashfor/public_html/isc496/assignments/04/bookshtml.txt",
+		"/C/users/kyle/appdata/local/temp/sublime-sftp-browse-1416440515/moxie/home/kbashfor/public_html/isc496/assignments/04/XML-Processing.html",
+		"/C/users/kyle/appdata/local/temp/sublime-sftp-browse-1416433924/moxie/home/kbashfor/public_html/isc496/assignments/04/style.xsl",
+		"/C/users/kyle/appdata/local/temp/sublime-sftp-browse-1416433884/moxie/home/kbashfor/public_html/isc496/assignments/04/books.xml",
+		"/C/users/kyle/appdata/local/temp/sublime-sftp-browse-1416433845/moxie/home/kbashfor/public_html/isc496/assignments/04/books.txt",
+		"/C/Users/Kyle/Dropbox/Public/temp.tex",
+		"/C/users/kyle/appdata/local/temp/sublime-sftp-browse-1414211364/moxie/home/kbashfor/public_html/csc445/ChitterChatter/src/chitterchatter/ClientListener.java",
+		"/C/Users/Kyle/Dropbox/Public/logh part 1/Legends of Galactic Heroes Part 1.tex",
+		"/C/users/kyle/appdata/local/temp/sublime-sftp-browse-1413838679/moxie/home/kbashfor/public_html/isc496/projects/spellingbee/winner.php",
+		"/C/Users/Kyle/Desktop/logh part 1/Legends of Galactic Heroes Part 1.tex",
+		"/C/Users/Kyle/Desktop/links.txt",
+		"/C/Users/Kyle/Desktop/untitled-1.tex",
+		"/C/Users/Kyle/Desktop/cover.tex",
+		"/C/Users/Kyle/Desktop/temp.tex"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 96.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"followNew",
+			"ArrayList",
+			"Followee",
+			"default",
+			"port",
+			"return 1",
+			"listing",
+			"jasper",
+			"default",
+			"8080",
+			"boolQuote == 1",
+			"Start of an identifier",
+			"boolQuote",
+			"boolean",
+			"indetifier",
+			"printf",
+			"   |    4074 | PS    |",
+			"   |    4068 | ZW    |",
+			"| 4068              | ZW                |",
+			"      NULL",
+			"   8670.00",
+			"   4173.00",
+			"   5951.00",
+			"          71.4",
+			"          37.8",
+			"   3101000",
+			"  11669000",
+			" 278357000",
+			"   |    3813 | US    |",
+			"          77.1",
+			"1776",
+			"     1776",
+			"\\",
+			"'",
+			">'",
+			"=>",
+			"'<",
+			"alternate ",
+			">'",
+			">",
+			"<",
+			">",
+			"<",
+			"`",
+			"…",
+			"(.)$",
+			"^\\n",
+			"            ",
+			"<tr class=\"success\">",
+			"<tr class=\"sucess\">",
+			"<tr>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Part of an identifier",
+			"boolWord",
+			"boolean",
+			"| 4074              | PS                |",
+			"| 4068              | ZW                |",
+			"   |    4068 | ZW    |",
+			"NULL      ",
+			"8670.00     ",
+			"4173.00   ",
+			"4173.00",
+			"5951.00   ",
+			"71.4          ",
+			"37.8          ",
+			"3101000   ",
+			"11669000  ",
+			"278357000 ",
+			"278357000  ",
+			"278357000         ",
+			"| 3813              | US                |                ",
+			"77.1                  ",
+			"1776           ",
+			"1776",
+			"* \\1",
+			".",
+			"",
+			" ",
+			">",
+			"'' =>",
+			" => '<",
+			"",
+			">',",
+			">'",
+			"'<",
+			">\"",
+			"\"<",
+			"",
+			"...",
+			"\\1\\\\\\",
+			"\\1\\\\n",
+			"\\/\\/",
+			"/\\/\\",
+			"\\\\",
+			"",
+			"<tr class=\"active\">",
+			"<tr class=\"success\">"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "returnJSON.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6290,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6120,
+								6120
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/tomcat/webapps/hw1/viewFollowers.jsp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1094,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								562,
+								562
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Java/Java Server Pages (JSP).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/tomcat/webapps/hw1/viewAllUsers.jsp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1049,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1049,
+								1049
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Java/Java Server Pages (JSP).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "followNewUsers.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4771,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1234,
+								1234
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "removeFollowers.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5776,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								337,
+								337
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "addStocks.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6088,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								302,
+								302
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 324.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/tomcat/webapps/hw1/selectCompany2.jsp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1729,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1729,
+								1729
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Java/Java Server Pages (JSP).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/tomcat/webapps/hw1/logout.jsp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 250,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Java/Java Server Pages (JSP).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/tomcat/webapps/hw1/Project_Description_Kyle_Bashford.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12141,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12141,
+								12141
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2709.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 188.0
+	},
+	"project": "hw1.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 199.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

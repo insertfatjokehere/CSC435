@@ -21,12 +21,8 @@ public class getStockCategory extends HttpServlet {
       // Set the response MIME type of the response message
       response.setContentType("text/html;charset=UTF-8");
       // Allocate a output writer to write the response message into the network socket
-      PrintWriter out = response.getWriter();
+      RequestDispatcher view = request.getRequestDispatcher("/selectCategory2.jsp");
 
-      // String user = request.getParameter("user");
-      // String pass = request.getParameter("pass");
-      // HttpSession session = request.getSession(false);
-      // String user = session.getAttribute("user").toString();
       try {
          
          // get query
@@ -36,9 +32,6 @@ public class getStockCategory extends HttpServlet {
          String full = url1 + URLEncoder.encode(query, "UTF-8").replace("+", "%20") + 
                        "&format=json&diagnostics=false&env=" + URLEncoder.encode(url2, "UTF-8") + "alltableswithkeys&callback=";
          // String full =  "https://query.yahooapis.com/v1/public/yql?q=select%20name%20from%20yahoo.finance.sectors&format=json&diagnostics=true&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys&callback=";
-         out.println("<html>");
-         out.println("<body>");
-         out.println("<p> Fetched Yahoo finance Secotrs via <a href=\"" + full + "\">query</a> </p>\n<ol>");
          URL getQuery = new URL(full);
          InputStream input = getQuery.openStream();
          JSONObject getResults = new JSONObject(new JSONTokener(input));
@@ -46,7 +39,7 @@ public class getStockCategory extends HttpServlet {
          // JSON PARSER
          
          JSONObject jsonQuery = getResults.getJSONObject("query");
-         
+         String[] sectorNames = new String[jsonQuery.getInt("count")];
          // DEBUG
          // out.println("<p> Query: " + jsonQuery.toString() + "</p>\n");
          JSONObject results = jsonQuery.getJSONObject("results");
@@ -57,20 +50,15 @@ public class getStockCategory extends HttpServlet {
 
          for (int i = 0; i < list.length(); i++) {
             JSONObject temp = list.getJSONObject(i);
-            out.println("<li>" + temp.get("name") +"</li>");
+            sectorNames[i] = (String)temp.get("name");
          }
          
-         // out.println("<html>");
-         // out.println("<body>");
-         // out.println("<p>User: " + user + "\n Pass: " + pass + "</p>");
-         out.println("</ol>\n<p> Query Time Executed: " + jsonQuery.get("created") + " </p>");
-         out.println("</body>");
-         out.println("</html>");
+         request.setAttribute("sector_names" , sectorNames);
+         request.setAttribute("query", full);
+         view.forward(request, response);
 
-      }     catch (JSONException ex) {
-                Logger.getLogger(getStockCategory.class.getName()).log(Level.SEVERE, null, ex);
-            } finally {
-		  out.close();  // Always close the output writer
+      } catch (JSONException ex) {
+         Logger.getLogger(getStockCategory.class.getName()).log(Level.SEVERE, null, ex);
       }
-    }
+   }
 }
