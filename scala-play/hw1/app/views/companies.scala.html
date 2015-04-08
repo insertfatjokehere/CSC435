@@ -1,0 +1,15 @@
+@(username: String, compNames: Array[String], compSymb: Array[String], sector: String, indID: Int)
+
+@main("Select Stock Symbol") {
+
+     <div style="text-align:left;"><a href="/dash">Home </a> &rArr; <a href="/dash/sector">Select Sector </a> &rArr; <a href="/dash/sector/industry?sector=@sector">Select Industry</a> &rArr;
+     <a href="/dash/sector/industry/companies?sector=@sector&indID=@indID"> Select Companies </a> <span style="float:right;"><a href="/logout">logout</a></span></div><hr>
+     <p>@username, Select an Companies from Sector @sector</p>
+     
+     
+     
+     <ul>
+
+     </ul>
+
+}

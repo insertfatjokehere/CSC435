@@ -1,0 +1,27 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                           controllers.Application.index()
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)
+
+# Login Checker
+POST    /loginCheck                 controllers.Application.loginCheck()
+
+# Log Out
+GET     /logout                     controllers.Application.logout()
+
+# Login Checker 
+POST    /login                      controllers.Application.login()
+
+# Login Checker
+GET     /dash                       controllers.Application.dash()
+
+# Get watched Stocks
+GET		/dash/viewStocks			controllers.Application.getWatchedStocks()
+
+# Generate Reports
+GET		/dash/reports				controllers.Application.generateReport()

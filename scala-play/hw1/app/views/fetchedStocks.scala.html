@@ -1,0 +1,18 @@
+@(stocks: Array[String])
+
+@main("Watched Stocks") {
+
+     <div style="text-align:left;"><a href="/dash">Home </a> &rArr; <a href="/dash/viewStocks">View Stocks</a> <span style="float:right;"><a href="/logout">logout</a></span></div><hr>
+     <p>View Your Watched Stocks</p>
+	 <table border="1">
+	 <tr>
+	 <th>Watched Companies (by Symbol)
+	 </th>
+	 </tr>
+	 @for(s <- 0 to stocks.length - 1){
+	 	<tr><td>@stocks(s)</td></tr>
+	 }
+	 
+	 </table>
+
+}

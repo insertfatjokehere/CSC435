@@ -1,0 +1,18 @@
+@(username: String)
+
+@main("Select Sector") {
+
+     <div style="text-align:left;"><a href="/dash">Home </a> &rArr; <a href="/dash/sector">Select Sector </a> <span style="float:right;"><a href="/logout">logout</a></span></div><hr>
+     <p>@username, Select a sector</p>
+     <ul>
+     <li><a href="/dash/sector/industry?sector=Basic Materials"> Basic Materials </a></li>
+	 <li><a href="/dash/sector/industry?sector=Consumer Goods"> Consumer Goods </a></li>
+	 <li><a href="/dash/sector/industry?sector=Financial"> Financial </a></li>
+	 <li><a href="/dash/sector/industry?sector=Healthcare"> Healthcare </a></li>
+	 <li><a href="/dash/sector/industry?sector=Industrial Goods"> Industrial Goods </a></li>
+	 <li><a href="/dash/sector/industry?sector=Services"> Services </a></li>
+	 <li><a href="/dash/sector/industry?sector=Technology"> Technology </a></li>
+	 <li><a href="/dash/sector/industry?sector=Utilities"> Utilities </a></li>
+     </ul>
+
+}

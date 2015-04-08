@@ -16,18 +16,24 @@ public class errorLogin extends HttpServlet {
       PrintWriter out = response.getWriter();
 
       try {
+         out.println("<!DOCTYPE html>");
          out.println("<html>");
+         out.println("<head>");
+         out.println("<meta charset=\"UTF-8\">");
+         out.println("<title>Login Error</title>");
+         out.println("</head>");
          out.println("<body>");
          out.println("<p> Error Page </p>");
-         // out.println("<form method=\"link\" action=\"/hw1/form.html\">");
+         // out.println("<form method=\"link\" action=\"/hw1/form.jsp\">");
          // out.println("<input type=\"submit\" value=\"Login Again\"");
          // out.println("</form>");
-         out.println("<a href=\"/hw1/form.html\">Login Again</a>");
+         out.println("<a href=\"/hw1/form.jsp\">Login Again</a>");
          out.println("</body>");
          out.println("</html>");
 
       } finally {
 		  out.close();  // Always close the output writer
+
       }
     }
 }

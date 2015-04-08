@@ -1,0 +1,44 @@
+@(stocks: Array[String], chartUrl: String)
+
+@charts("Generate Reports") {
+
+     <div style="text-align:left;"><a href="/dash">Home </a> &rArr; <a href="/dash/reports">View Stocks</a> <span style="float:right;"><a href="/logout">logout</a></span></div><hr>
+
+	 <form>
+	 Stock Symbol <select name="stocksym" id="stocksym">
+	 @for(s <- 0 to stocks.length - 1){
+	 	<option value="@stocks(s)">@stocks(s)</option>
+	 }
+	 </select>
+	 <br>
+	 
+	    <!-- Time Span -->
+	 	Time Span <input type="number" name="time" id="time"> <select name="duration" id ="duration">
+		<option value="d">Day(s)</option>
+		<option value="m">Month(s)</option
+		<option value="y">Year(s)</option>
+		<option value="my">Maximum</option>
+		<option vaule="Defualt">Default</option>
+		</select>
+		<br />
+		
+		<!-- Chart Type -->
+		Chart Type <select name="cType" id="cType">
+		<option value="l">Line</option>
+		<option value="b">Bar</option>
+		<option value="c">Candle</option>
+		</select>
+		<br />
+
+		<!-- Chart Type -->
+		Chart Scaling <select name="cScale" id="cScale">
+		<option value="off">Arithmetic</option>
+		<option value="on">Logrithmic</option>
+		</select>
+		<br />
+
+
+		<input type="button" id="thisButton" value="Generate Chart" onclick="makeImage()">
+	 </form>
+
+}

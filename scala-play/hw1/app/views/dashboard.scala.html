@@ -1,0 +1,15 @@
+@(username: String)
+
+@main("Dashboard") {
+
+     <div style="text-align:left;"><a href="/dash">Home</a> <span style="float:right;"><a href="/logout">logout</a></span></div><hr>
+     <p>@username - Dashboard</p>
+     <ul>
+     <li><a href="/dash/sector"> Add Company / Stocks to Watch </a></li>
+     <li><a href="/dash/viewStocks">View Watched Stocks</a></li>
+     <li><a href="/viewUsers">Follow Other users</li>
+     <li><a href="/getAllFollowers">Manage Your Followings</a></li>
+     <li><a href="/dash/reports">Generate Report</a></li>
+     </ul>
+
+}

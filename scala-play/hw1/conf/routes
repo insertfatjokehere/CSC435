@@ -1,0 +1,37 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                           controllers.Application.index()
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)
+
+# Login Checker
+POST    /loginCheck                 controllers.Application.loginCheck()
+
+# Log Out
+GET     /logout                     controllers.Application.logout()
+
+# Login Checker 
+POST    /login                      controllers.Application.login()
+
+# Login Checker
+GET     /dash                       controllers.Application.dash()
+
+# Get watched Stocks
+GET		/dash/viewStocks			controllers.Application.getWatchedStocks()
+
+# Generate Reports
+## Notes http://stackoverflow.com/questions/9657163/how-to-handle-optional-query-parameters-in-play-framework
+GET		/dash/reports				controllers.Application.generateReport(stocksym: play.libs.F.Option[String], time: play.libs.F.Option[String], duration: play.libs.F.Option[String], cType: play.libs.F.Option[String], cScale: play.libs.F.Option[String])
+
+# Select Sector
+GET		/dash/sector				controllers.Application.sectors()
+
+# Select Industry
+GET		/dash/sector/industry		controllers.Application.industry(sector: String)
+
+# Select Company
+GET		/dash/sector/industry/companies		controllers.Application.companies(sector: String, indID: Int)

@@ -1,0 +1,51 @@
+@(title: String)(content: Html)
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>@title</title>
+        	<script type="text/javascript">
+		// https://code.google.com/p/yahoo-finance-managed/wiki/miscapiImageDownload
+		function makeImage() {
+			var base = "http://chart.finance.yahoo.com/z?s=";
+			// id
+			var selectBox = document.getElementById("stocksym
+    		var selectedValue = selectBox.options[selectBox.selectedIndex].value;
+    		base = base + selectedValue;
+    		base = base + "&z=l"; // make image large
+
+    		// time span
+    		selectBox = document.getElementById("duration
+    		selectedValue = selectBox.options[selectBox.selectedIndex].value;
+
+    		if (selectedValue != "Default") {
+    			if (selectedValue == "my") {
+    				base = base + "&t=my";
+    			} else {
+    				var time = document.getElementById("time").value;
+    				base = base + "&t=" + time + selectedValue;
+    			}
+    		}
+
+    		// Chart Type
+			var selectBox = document.getElementById("cType
+    		var selectedValue = selectBox.options[selectBox.selectedIndex].value;
+    		base = base + "&q=" + selectedValue;
+
+    		// Chart Scaling
+			var selectBox = document.getElementById("cScale
+    		var selectedValue = selectBox.options[selectBox.selectedIndex].value;
+    		base = base + "&l=" + selectedValue;
+
+    		// add image
+    		document.getElementById("chart").src = base;
+    		// alert(base);
+		}
+
+	</script>
+    </head>
+    <body>
+        @content
+    </body>
+</html>

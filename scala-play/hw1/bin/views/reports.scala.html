@@ -1,0 +1,17 @@
+@(stocks: Array[String])
+
+@charts("Generate Reports") {
+
+     <div style="text-align:left;"><a href="/dash">Home </a> &rArr; <a href="/dash/reports">View Stocks</a> <span style="float:right;"><a href="/logout">logout</a></span></div><hr>
+
+	 <form>
+	 Stock Symbol <select name="stocksym" id="stocksym">
+	 @for(s <- 0 to stocks.length - 1){
+	 	<option value="@stocks(s)">@stocks(s)</option>
+	 }
+	 </select>
+	 <br>
+	 
+	 </form>
+
+}
