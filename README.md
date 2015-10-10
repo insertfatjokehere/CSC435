@@ -154,3 +154,65 @@ When I do however, I will store Java Objects into the MySQL database and allow t
 ## Notes
 
 By this time; March 17, 2015 (Happy St. Patricks Day) The Sector and Industry tables for YQL have been return `null` for the query.
+
+***
+
+# Late Sync
+
+So I got lazy and never sync'd my assignments after switching over to Scala Play (which I used more Java than anything), Groovy on Grails, and lastly SOAP via Netbeans.
+
+So I figured late than never with these assignments.
+
+So to compensate from what I didn't commit, i'll at least edit README to at least have the assignment details
+
+***
+
+# CSC435 - Homework 4 - Kyle Bashford
+
+## Assignment Details - Defined by Alex
+
+Now that you have solid knowledge of the web stack, in Homework 4 you will explore the contemporary way to build web applications by using a framework with modern features and processes -- Scala Play (in Java, unless you already know Scala).
+
+Visit the [Scala Play](https://www.playframework.com/) home page and dig in. I recommend you follow the tutorials, starting with the conveniently named "Getting Started" section. When you get to templates, I highly recommend following the play-java-intro one. Its documentation consists of a good explanatory video.
+
+This week I want you to make meaningful progress on recreating your project in Play -- it is small enough to be redone easily, once you familiarize yourself with the architecture. No need for a data store or actual web services yet, but I want to see the MVC part. Use dummy data as necessary.
+
+Submit to the Angel dropbox your archived (zip or tar.gz) project directory, following the recommended Play directory structure.
+
+***
+
+# CSC435 - Homework 5 - Kyle Bashford
+
+## Assignment Details - Defined by Alex
+
+Finish your project in Play. This means complete your logic (split according to MVC, as usual), consume / expose RESTful services, and connect to a data store. This is a homework equivalent to HW3 in tasks, but the methodology will be different because of the different framework. In addition, I want you to use the data store paradigm that you are less familiar with (out of raw SQL and ORM); e.g., if you used raw SQL in HW3, I want you to use the ORM tool Play provides, which is called ebeans.
+
+After this homework your project should be designed well (MVC), complete, and working well on top of the Play framework.
+
+Submit to the Angel dropbox your archived (zip or tar.gz) project directory, following the recommended Play directory structure.
+
+***
+
+# CSC435 - Homework 6 - Kyle Bashford
+
+## Assignment Details - Defined by Alex
+
+Rebuild your entire project from scratch in the [Grails](https://grails.org/) framework. Follow the tutorials to acquire a basic understanding, then reimplement your project at all levels: logic, presentation, data store (you can use SQL or ORM as you prefer), and services (both producing and consuming).
+
+After this homework your project should be designed well (MVC), complete, and working well on top of Grails.
+
+Submit to the Angel dropbox your archived (zip or tar.gz) project directory, following the recommended directory structure.
+
+***
+
+# CSC435 - Homework 7 - Kyle Bashford
+
+## Assignment Details - Defined by Alex
+
+This homework concludes your project.
+
+Design and implement a functional and responsive browser interface to your grails project using html, css, and javascript. You can use libraries such as jQuery for ajax communication (among other things), and Bootstrap for a responsive interface.
+
+Note that if your HW6 was built correctly, you won't have to make changes to anything except the views. Your browser interface should communicate with your json web service endpoints, and beautify the data it receives.
+
+Submit to the Angel dropbox your archived (zip or tar.gz) project directory, following the recommended directory structure. **NB: I can't give you a grade for the course if I don't have your sources.**
