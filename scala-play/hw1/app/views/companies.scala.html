@@ -5,11 +5,24 @@
      <div style="text-align:left;"><a href="/dash">Home </a> &rArr; <a href="/dash/sector">Select Sector </a> &rArr; <a href="/dash/sector/industry?sector=@sector">Select Industry</a> &rArr;
      <a href="/dash/sector/industry/companies?sector=@sector&indID=@indID"> Select Companies </a> <span style="float:right;"><a href="/logout">logout</a></span></div><hr>
      <p>@username, Select an Companies from Sector @sector</p>
-     
-     
-     
-     <ul>
 
-     </ul>
+     <form action="@routes.Application.addCompanies()" method="post">
+     <table border="1">
+     <tr>
+          <th>Comapnies</th>
+          <th>Stock Symbol</th>
+     </tr>
+          @defining(compNames.zip(compSymb)) { temp =>
+               @for(list <- temp) {
+               <tr>
+                    <td>@list._1</td>
+                    <td>@list._2</td>
+                    <td><input type="checkbox" name="stockSymbol" value=@list._2></td>
+               </tr>
+               }
+          }
+     <br />
+     <input type="submit" value="Submit">
+     </form>
 
 }

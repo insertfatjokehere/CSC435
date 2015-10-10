@@ -35,3 +35,21 @@ GET		/dash/sector/industry		controllers.Application.industry(sector: String)
 
 # Select Company
 GET		/dash/sector/industry/companies		controllers.Application.companies(sector: String, indID: Int)
+
+# Add Selected Companies
+POST    /dash/sector/industry/companies/add     controllers.Application.addCompanies()
+
+# View Other Users
+GET     /dash/viewUsers             controllers.Application.getOtherUsers()
+
+# View All following people
+GET     /dash/getAllFollowers       controllers.Application.getFollowers()
+
+# Follow User
+POST    /dash/viewUsers/add         controllers.Application.addFollowers()
+
+# Unfollow Users
+POST    /dash/getAllFollowers/remove        controllers.Application.removeFollowers()
+
+# JSON
+GET     /json                       controllers.Application.json(username: String)

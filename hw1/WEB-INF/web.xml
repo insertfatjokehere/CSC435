@@ -75,12 +75,15 @@
     <servlet-name>restful</servlet-name>
     <servlet-class>returnJSON</servlet-class>
   </servlet>
+<<<<<<< HEAD
 
   <servlet>
    <servlet-name>genRep</servlet-name>
    <servlet-class>generateReport</servlet-class> 
   </servlet>
    
+=======
+>>>>>>> origin/master
    <!-- Note: All <servlet> elements MUST be grouped together and
          placed IN FRONT of the <servlet-mapping> elements -->
  
@@ -108,6 +111,59 @@
    <servlet-mapping>
     <servlet-name>Category</servlet-name>
     <url-pattern>/selectCategory</url-pattern>
+<<<<<<< HEAD
+=======
+   </servlet-mapping>
+
+   <servlet-mapping>
+     <servlet-name>Industry</servlet-name>
+     <url-pattern>/selectIndustry</url-pattern>
+   </servlet-mapping>
+
+   <servlet-mapping>
+      <servlet-name>Company</servlet-name>
+      <url-pattern>/selectCompany</url-pattern>
+   </servlet-mapping>
+
+   <servlet-mapping>
+    <servlet-name>Dash</servlet-name>
+    <url-pattern>/dash</url-pattern>
+   </servlet-mapping>
+
+   <servlet-mapping>
+    <servlet-name>followStocks</servlet-name>
+    <url-pattern>/followStocks</url-pattern>
+   </servlet-mapping>
+
+   <servlet-mapping>
+     <servlet-name>watchedStocks</servlet-name>
+     <url-pattern>/viewStocks</url-pattern>
+   </servlet-mapping>
+
+   <servlet-mapping>
+    <servlet-name>viewAllUsers</servlet-name>
+    <url-pattern>/viewUsers</url-pattern>
+   </servlet-mapping>
+
+   <servlet-mapping>
+    <servlet-name>follow</servlet-name>
+    <url-pattern>/followNewUser</url-pattern>
+   </servlet-mapping>
+
+   <servlet-mapping>
+    <servlet-name>getFolllow</servlet-name>
+    <url-pattern>/getAllFollowers</url-pattern>
+   </servlet-mapping>
+
+   <servlet-mapping>
+    <servlet-name>rmFollow</servlet-name>
+    <url-pattern>/removeYourFollowers</url-pattern>
+   </servlet-mapping>
+
+   <servlet-mapping>
+    <servlet-name>restful</servlet-name>
+    <url-pattern>/json</url-pattern>
+>>>>>>> origin/master
    </servlet-mapping>
 
    <servlet-mapping>

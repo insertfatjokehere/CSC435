@@ -1,0 +1,25 @@
+@(username: String, userList: List[Users])
+
+@main("Select Users to Follow") {
+
+    <div style="text-align:left;"><a href="/dash">Home</a> &rArr; <a href="/dash/viewUsers">Follow Other users </a> <span style="float:right;"><a href="/logout">logout</a></span></div><hr>
+
+<p>@username, Select other users to follow</p>
+
+<form action="@routes.Application.addFollowers()" method="post">
+    <table border="1">
+        <tr>
+            <th>Users</th>
+            <th>Select Users</th>
+        </tr>
+        @for(list <- userList){
+        <tr>
+            <td>
+                @list.Username
+            </td>
+            <td><input type="checkbox" name="userSelected" value="@list.Username"></td>
+        </tr>
+        }
+        <input type="submit" value="Submit">
+</form>
+}

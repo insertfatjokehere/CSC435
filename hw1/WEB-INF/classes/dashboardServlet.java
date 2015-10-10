@@ -37,7 +37,10 @@ public class dashboardServlet extends HttpServlet {
      out.println("<li><a href=\"/hw1/viewStocks\">View Watched Stocks</a></li>");
      out.println("<li><a href=\"/hw1/viewUsers\">Follow Other users</li>");
      out.println("<li><a href=\"/hw1/getAllFollowers\">Manage Your Followings</a></li>");
+<<<<<<< HEAD
      out.println("<li><a href=\"/hw1/report\">Generate Report</a></li>");
+=======
+>>>>>>> origin/master
      out.println("</ul>");
      out.println("</body>");
      out.println("</html>");

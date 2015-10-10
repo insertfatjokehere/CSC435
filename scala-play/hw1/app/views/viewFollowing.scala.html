@@ -1,0 +1,25 @@
+@(username: String, userList: Array[String])
+
+@main("Manage Followers") {
+
+<div style="text-align:left;"><a href="/dash">Home</a> &rArr; <a href="/dash/getAllFollowers">Manage Followers </a> <span style="float:right;"><a href="/logout">logout</a></span></div><hr>
+<p>@username, Select users to Unfollow</p>
+
+<form action="@routes.Application.removeFollowers()" method="post">
+    <table border="1">
+        <tr>
+            <th>Users</th>
+        </tr>
+        @for(list <- userList) {
+        <tr>
+            <td>@list</td>
+            <td><input type="checkbox" name="selectedUser" value=@list></td>
+        </tr>
+        }
+
+        <br />
+        <input type="submit" value="Submit">
+</form>
+
+
+}

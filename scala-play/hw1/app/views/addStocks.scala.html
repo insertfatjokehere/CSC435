@@ -1,0 +1,14 @@
+@(selected: Array[String])
+
+@main("Added Stocks") {
+
+<div style="text-align:left;"><a href="/dash">Home</a> <span style="float:right;"><a href="/logout">logout</a></span></div><hr>
+<table border="1">
+        <tr>
+            <th>Watched Companies (by Symbol)</th>
+        </tr>
+    @for(list <- selected) {
+        <tr><td>@list</td></tr>
+    }
+    </table>
+}
